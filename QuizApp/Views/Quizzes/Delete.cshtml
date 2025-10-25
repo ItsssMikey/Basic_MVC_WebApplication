@@ -1,0 +1,12 @@
+@model QuizApp.Domain.Quiz
+@{
+    ViewData["Title"] = "Delete Quiz";
+}
+<h2>Delete Quiz</h2>
+<div class="alert alert-warning">Are you sure you want to delete <strong>@Model.Title</strong>?</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

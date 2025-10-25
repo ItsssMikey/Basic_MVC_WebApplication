@@ -1,0 +1,11 @@
+/Users/michaelhuse/quizapp/QuizApp.Domain/bin/Debug/net8.0/QuizApp.Domain.deps.json
+/Users/michaelhuse/quizapp/QuizApp.Domain/bin/Debug/net8.0/QuizApp.Domain.dll
+/Users/michaelhuse/quizapp/QuizApp.Domain/bin/Debug/net8.0/QuizApp.Domain.pdb
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/QuizApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/QuizApp.Domain.AssemblyInfoInputs.cache
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/QuizApp.Domain.AssemblyInfo.cs
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/QuizApp.Domain.csproj.CoreCompileInputs.cache
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/QuizApp.Domain.dll
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/refint/QuizApp.Domain.dll
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/QuizApp.Domain.pdb
+/Users/michaelhuse/quizapp/QuizApp.Domain/obj/Debug/net8.0/ref/QuizApp.Domain.dll

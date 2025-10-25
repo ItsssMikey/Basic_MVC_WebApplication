@@ -1,0 +1,39 @@
+﻿@model IEnumerable<QuizApp.Domain.Quiz>
+@{
+    ViewData["Title"] = "Welcome";
+}
+<div class="p-4 p-md-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-4">
+    <h1 class="display-6">QuizApp MVP</h1>
+    <p class="lead mb-1">Create quizzes & let users take them. Scores are calculated server-side.</p>
+    <p class="text-muted mb-3">Total quizzes: <strong>@(ViewBag.TotalQuizzes ?? 0)</strong></p>
+    <a class="btn btn-primary me-2" asp-controller="Quizzes" asp-action="Create">Create a Quiz</a>
+    <a class="btn btn-outline-secondary" asp-controller="Quizzes" asp-action="Index">Browse Quizzes</a>
+  </div>
+</div>
+
+@if (Model?.Any() == true)
+{
+  <h4 class="mb-3">Latest quizzes</h4>
+  <div class="row row-cols-1 row-cols-md-2 g-3">
+    @foreach (var q in Model)
+    {
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">@q.Title</h5>
+            <p class="card-text text-muted">@q.Description</p>
+          </div>
+          <div class="card-footer bg-white border-0 d-flex gap-2">
+            <a class="btn btn-sm btn-outline-primary" asp-controller="Quizzes" asp-action="Details" asp-route-id="@q.Id">Details</a>
+            <a class="btn btn-sm btn-outline-success" asp-controller="Play" asp-action="Start" asp-route-id="@q.Id">Take</a>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+}
+else
+{
+  <p class="text-muted">No quizzes yet. Create your first one!</p>
+}

@@ -1,0 +1,17 @@
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Core.deps.json
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Core.dll
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Core.pdb
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Data.dll
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Domain.dll
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Data.pdb
+/Users/michaelhuse/quizapp/QuizApp.Core/bin/Debug/net8.0/QuizApp.Domain.pdb
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.csproj.AssemblyReference.cache
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.AssemblyInfoInputs.cache
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.AssemblyInfo.cs
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.csproj.CoreCompileInputs.cache
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.csproj.CopyComplete
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.dll
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/refint/QuizApp.Core.dll
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/QuizApp.Core.pdb
+/Users/michaelhuse/quizapp/QuizApp.Core/obj/Debug/net8.0/ref/QuizApp.Core.dll

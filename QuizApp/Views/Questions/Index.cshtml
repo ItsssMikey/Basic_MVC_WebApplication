@@ -1,0 +1,26 @@
+@model IEnumerable<QuizApp.Domain.Question>
+@{
+    var quiz = ViewBag.Quiz as QuizApp.Domain.Quiz;
+    ViewData["Title"] = $"Questions - {quiz?.Title}";
+}
+<h2>Questions for “@quiz?.Title”</h2>
+<p>
+  <a class="btn btn-primary" asp-action="Create" asp-route-quizId="@quiz?.Id">Add Question</a>
+  <a class="btn btn-secondary" asp-controller="Quizzes" asp-action="Details" asp-route-id="@quiz?.Id">Back to Quiz</a>
+</p>
+<table class="table">
+  <thead><tr><th>Text</th><th>Points</th><th></th></tr></thead>
+  <tbody>
+  @foreach (var q in Model)
+  {
+    <tr>
+      <td>@q.Text</td>
+      <td>@q.Points</td>
+      <td class="text-end">
+        <a class="btn btn-sm btn-outline-primary" asp-action="Edit" asp-route-id="@q.Id">Edit</a>
+        <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@q.Id">Delete</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>

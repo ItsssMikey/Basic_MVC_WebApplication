@@ -1,0 +1,14 @@
+@{
+    var ok = TempData["Success"] as string;
+    var err = TempData["Error"] as string;
+}
+<div aria-live="polite" aria-atomic="true" class="position-fixed top-0 end-0 p-3" style="z-index:1080;">
+    @if (!string.IsNullOrWhiteSpace(ok))
+    {
+        <div class="alert alert-success shadow-sm mb-2">@ok</div>
+    }
+    @if (!string.IsNullOrWhiteSpace(err))
+    {
+        <div class="alert alert-danger shadow-sm mb-2">@err</div>
+    }
+</div>
