@@ -5,22 +5,22 @@ using QuizApp.Core.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// MVC
+//MVC
 builder.Services.AddControllersWithViews();
 
-// EF Core (SQLite)
+// EF Core som bruker SQlite
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Default")));
 
-// Repository pattern (DAL)
+// DAL
 builder.Services.AddScoped<IQuizRepository, QuizRepository>();
 
 var app = builder.Build();
 
-// Error handling
+// error håndtering
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error"); // Friendly error page
+    app.UseExceptionHandler("/Home/Error"); 
     app.UseHsts();
 }
 else
