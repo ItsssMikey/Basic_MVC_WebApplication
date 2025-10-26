@@ -20,5 +20,6 @@ QuizApp - Det som presenteres. Altså Views, Controllere og statiske filer
 
 Refleksjon rundt AI-Bruk
 Dette prosjektet har aktivt brukt AI til å lage en grunnleggende mappestruktur og navngivning etter å ha beskrevet MVP. AI er også brukt for feilsøking og bearbeiding av kode når vi har møtt på hindringer og at koden ikke kjører.
-AI-bruk er litt av grunnen til at koden er på både norsk og engelsk, samt det at noen på gruppa skrev kode på norsk og andre på engelsk, da vi ikke hadde tenkt over å fastslå et spesifikt språk på navn av variabler og slikt
+AI-bruk er litt av grunnen til at koden er på både norsk og engelsk, samt det at noen på gruppa skrev kode på norsk og andre på engelsk, da vi ikke hadde tenkt over å fastslå et spesifikt språk på navn av variabler og slikt. 
+På selve det som kommer opp på skjermen til en bruker av applikasjonen, så er alt forsøkt å kun være engelsk. Det er kun det interne språket som ikke er konsistent.
 
