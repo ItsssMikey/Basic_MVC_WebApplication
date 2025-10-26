@@ -2,7 +2,8 @@ using QuizApp.Domain;
 
 namespace QuizApp.Core.Interfaces;
 
-/// <summary>Provides async CRUD operations for Quiz aggregates.</summary>
+//Dette er grensesnittet. Alle klasser som implementerer IQuizRepository
+    // må ha nøyaktig disse metodene
 public interface IQuizRepository
 {
     Task<List<Quiz>> GetAllAsync();
