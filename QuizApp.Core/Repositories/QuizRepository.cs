@@ -43,10 +43,10 @@ public class QuizRepository : IQuizRepository
 // slett en quiz
     public async Task DeleteAsync(int id)
     {
-        var entity = await _db.Quizzes.FindAsync(id);
-        if (entity != null)
+        var forekomst = await _db.Quizzes.FindAsync(id);
+        if (forekomst != null)
         {
-            _db.Quizzes.Remove(entity);
+            _db.Quizzes.Remove(forekomst);
             await _db.SaveChangesAsync();
         }
     }

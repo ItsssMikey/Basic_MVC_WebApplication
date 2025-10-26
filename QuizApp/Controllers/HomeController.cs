@@ -21,16 +21,16 @@ public class HomeController : Controller
     public async Task<IActionResult> Index()
     {
        
-        var count = await _db.Quizzes.CountAsync();
-        var latest = await _db.Quizzes
+        var antall = await _db.Quizzes.CountAsync();
+        var siste = await _db.Quizzes
             .AsNoTracking() //sporer ikke endringer siden dataen kun skal vises
             .OrderByDescending(q => q.CreatedUtc)
             .Take(5)
             .ToListAsync();
 
 // Sender telling til visningen og sender listen over quizzer som modell
-        ViewBag.TotalQuizzes = count;
-        return View(latest);
+        ViewBag.TotalQuizzes = antall;
+        return View(siste);
     }
         // Viser personvern siden
     public IActionResult Privacy() => View();
