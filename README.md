@@ -19,5 +19,5 @@ QuizApp.Core - Kjører flyten mellom Data og Domain
 QuizApp - Det som presenteres. Altså Views, Controllere og statiske filer
 
 Refleksjon rundt AI-Bruk
-Dette prosjektet har aktivt brukt AI til å lage en grunnleggende mappestruktur og navngivning etter å ha beskrevet MVP. AI er også brukt for feilsøking og bearbeiding av kode når vi har møtt på hindringer og at koden ikke kjører. AI var ikke brukt til å skrive README, men den gjorde slik at den så bedre ut i henhold til hvordan README ser ut i preview
+Dette prosjektet har aktivt brukt AI til å lage en grunnleggende mappestruktur og navngivning etter å ha beskrevet MVP. AI er også brukt for feilsøking og bearbeiding av kode når vi har møtt på hindringer og at koden ikke kjører.
 
