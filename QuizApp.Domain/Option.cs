@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace QuizApp.Domain
 {
+    //en modellklasse for svaralternativer til quiz
     public class Option
     {
         public int Id { get; set; }

@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace QuizApp.Domain
 {
+    //modellklasse for quiz objektet, hvor regler er definert
     public class Quiz
     {
         public int Id { get; set; }
@@ -17,7 +18,7 @@ namespace QuizApp.Domain
 
         public DateTime CreatedUtc { get; set; } = DateTime.UtcNow;
 
-        // Relationship — one quiz can have many questions
+       
         public ICollection<Question> Questions { get; set; } = new List<Question>();
     }
 }

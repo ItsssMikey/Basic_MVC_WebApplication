@@ -1,6 +1,7 @@
 namespace QuizApp.Domain;
 
 public class QuizAttempt
+//en modellklasse for forsøk til quiz
 {
     public int Id { get; set; }
     public int QuizId { get; set; }
