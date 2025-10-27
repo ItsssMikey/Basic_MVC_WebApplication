@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace QuizApp.Domain
 {
+//en modellklasse for spørsmål til quiz
     public class Question
     {
         public int Id { get; set; }
@@ -16,7 +17,7 @@ namespace QuizApp.Domain
         public int QuizId { get; set; }
         public Quiz? Quiz { get; set; }
 
-        // IMPORTANT: this property must exist to fix your error
+      
         public ICollection<Option> Options { get; set; } = new List<Option>();
     }
 }
