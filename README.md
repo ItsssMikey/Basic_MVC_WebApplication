@@ -1,7 +1,7 @@
 
 
 Basic Quiz MVC Web Application (QuizApp)
-Et grunnleggende webapplikasjonsprosjekt utviklet med ASP.NET Core MVC for å demonstrere bruk av Model-View-Controller-arkitekturen og Entity Framework Core for databasetilkobling. Prosjektet fungerer som en Quiz-applikasjon med fokus på å implementere et Minimum Viable Product for innholdsstyring.
+Et grunnleggende webapplikasjonsprosjekt utviklet med ASP.NET Core MVC for å demonstrere bruk av Model-View-Controller-arkitekturen og Entity Framework Core for databasetilkobling. Prosjektet fungerer som en Quiz-applikasjon med fokus på å implementere et Minimum Viable Product for innholdsstyring. Kan kjøres ved å åpne terminalen, cd <path til prosjekt>, dotnet run, og deretter gå inn på localhost link
 
 MVP-Funksjonalitet
 Denne versjonen av applikasjonen fokuserer på de grunnleggende CRUD-operasjonene (Create, Read, Update og Delete) for quiz-objekter.
